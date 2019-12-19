@@ -1,0 +1,21 @@
+header {
+  height: 500px;
+  width: 100%;
+  text-align: center;
+  padding-top: 2em;
+
+
+  background-color: #00a8db;
+background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.profile {
+  position: relative;
+  left: 0em;
+  top: 3em;
+
+}
+h2 {
+  padding-top: 1em;
+}

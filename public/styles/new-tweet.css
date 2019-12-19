@@ -1,0 +1,93 @@
+
+
+textarea {
+  border: none;
+  overflow: auto;
+  outline: none;
+  resize: none;
+  background-color: #F4F1EC;
+  width: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  border-bottom: 2px solid black;
+}
+
+input {
+  font-family: 'Bungee', cursive;
+  background-color: #4154A1;
+  color: #ffff;
+}
+
+​
+.counter {
+  float: right;
+  font-family: 'Bungee', cursive;
+}
+span{
+  float : right;
+  font-family: 'Bungee', cursive;
+}
+
+.exceeded {
+  color: red;
+}
+
+.tweet {
+    position: relative;
+    display: block;
+    border: 3px solid black;
+    justify-content: center;
+    background: transparent;
+    margin-block-start: 60px;
+    margin-block-end: 30px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+  }
+
+  .tweet p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .pic {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+  }
+  .komaki {
+    float: right;
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+
+  }
+  .tweetarea p {
+    margin: 15px;
+    border-bottom: 2px solid black;
+  }
+
+.tweet-owner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.tweet-owner > div {
+  display: flex;
+  align-items: center;
+}
+.footer-area {
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.tweet:hover {
+
+    -moz-box-shadow: 5px 5px 0px #999;
+    -webkit-box-shadow: 10px 10px 0px #999;
+        box-shadow: 10px 10px 0px #999;
+}

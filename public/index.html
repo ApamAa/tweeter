@@ -3,27 +3,104 @@
   <head>
     <!-- Meta Information -->
     <title>Tweeter - Home Page</title>
-
+​
     <!-- External CSS -->
     <link rel="stylesheet" href="/vendor/normalize-4.1.1.css" type="text/css" />
-
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Source+Sans+Pro:300i,700i&display=swap" rel="stylesheet" />
+​
     <!-- App CSS -->
     <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
-
+​
+    <!-- nav css-->
+    <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
+​
+    <!--header css-->
+    <link rel="stylesheet" href="/styles/header.css" type="text/css" />
+​
+    <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
+​
     <!-- External JS -->
     <script type="text/javascript" src="/vendor/jquery-2.2.3.min.js"></script>
-
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+​
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/client.js"></script>
-  </head>
+    <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
+    <script src="https://kit.fontawesome.com/57e2629b09.js" crossorigin="anonymous"></script>
+    
 
+
+  </head>
+​
   <body>
     <!-- Top nav bar (fixed) -->
     <nav>
-      <span>tweeter</span>
+      <span> tweeter </span>
+      <p class="pointer"> <b>Write </b>a new tweet
+        <br>
+        <a class="Arrow-down">
+          <i class="fas fa-angle-double-down bounce"></i>
+        </a>
+      </p>
+   
     </nav>
 
+    <header>
+      <div class="profile">
+          <img src="/images/profile-hex.png"> 
+      </div>
+      <br>
+      <div class= "name">
+          <h2>Apama Jamshidi</h2>
+      </div>
+  </header>
+​
     <!-- Page-specific (main) content here -->
-    <main class="container"></main>
+    <main class="container">
+      
+        <section class="new-tweet">
+            <h2>Compose Tweet</h2>
+            <form class="new-tweet-form" action="/tweets" method = "POST">
+              <div class = "errormsg">
+            
+              </div>
+              <textarea class="tweet-box" name="text" placeholder="What are you humming about?"></textarea>
+              
+              <input class="submitbutton" type="submit" value="tweet">
+              <span class="counter">140</span>
+            </form>
+          </section>
+​      
+  <section class="tweetarea">
+
+      <!---<article class="tweet">
+        <div class="tweet-owner">
+          <div>
+            <img src="/images/profile-hex.png" class="pic"> 
+            pampam
+          </div>
+        
+          <h3 class="komaki">@apamaj</h3>
+        </div>
+          <p>
+            some tweets!
+          </p>
+          <div class="footer-area">
+         <footer>
+           1 houre ago
+         </footer>
+           <div>
+           <span class="fas fa-flag"></span>
+           <span class="fas fa-retweet"></span>
+           <span class="fas fa-heart"></span>
+           </div>
+         
+      </div>
+      </article>-->
+  </section>
+​      
+    </main>
+    
   </body>
 </html>
+

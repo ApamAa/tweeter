@@ -1,0 +1,30 @@
+
+nav {
+  height: 120px;
+  width: 100vw;
+  
+  z-index: 1500;
+  color: #ffffff;
+  background-color: #4056A1;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+nav span {
+  font-family: 'Bungee', cursive;
+}
+nav p {
+  text-align: center;
+}
+.fa-angle-double-down {
+  color: orange;
+}
+
+p span {
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
