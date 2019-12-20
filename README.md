@@ -13,7 +13,7 @@ express
 ["Laptop Screen"](https://github.com/ApamAa/tweeter/blob/master/Docs/Laptop-size-screen.png)
 ["Tablet Screen"](https://github.com/ApamAa/tweeter/blob/master/Docs/Tablet-size-screen.png)
 ["error"](https://github.com/ApamAa/tweeter/blob/master/Docs/error.png)
-["text area"] (https://github.com/ApamAa/tweeter/blob/master/Docs/text-area.png)
+
 
 #
 ## Getting Started
