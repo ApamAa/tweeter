@@ -10,7 +10,7 @@ html {
 
 body {
   
-  color: #545149;
+  color: #1f1d1a;
   background-color: #f4f1ec;
   font-size: 24px;
   font-family: 'Source Sans Pro', sans-serif;
@@ -18,14 +18,16 @@ body {
 
 
 main { 
-  padding-left: 2em;
-  padding-right: 2em;
-  width: 90%;
+  padding-left: 4em;
+  padding-right: 4em;
+  width: 100%;
 }
 
 .errormsg {
   border: 2px solid red;
   text-align: center;
+  color:red;
+  font-weight: bold;
 }
 .bounce {
   animation: bounce 2s infinite;
@@ -44,4 +46,13 @@ main {
 i:hover {
   opacity: 0.5;
   transition: .3s ease-in-out;
+}
+
+
+@media only screen and (min-width:863px){
+  main{
+    float:right;
+    width: 60%;
+    padding-top: 2em;
+  }
 }

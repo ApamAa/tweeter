@@ -17,9 +17,9 @@ $(document).ready(function() {
     let tweetData = $(this).find('textarea').val();
     console.log("tweeet data -=-->>>", tweetData);
     if (tweetData === null || tweetData === "") {
-      $(".errormsg").text("empty tweet!!!") .slideDown();
+      $(".errormsg").text("YOUR MESSAGE IS EMPTY!!!") .slideDown();
     } else if (tweetData.length > 140) {
-        $(".errormsg").text("MESSAGE IS TOO LONG!!!") .slideDown();   
+      $(".errormsg").text("YOUR MESSAGE IS TOO LONG!!!") .slideDown();
     } else {
       return $.ajax('/tweets', { method: 'POST', data:$tweetForm.serialize()})
         .then(function() {

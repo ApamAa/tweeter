@@ -1,6 +1,3 @@
-
-
-
 $(document).ready(function() {
   $(".tweet-box").keyup(function() {
   const lengthAllowed = 140;

@@ -2,10 +2,9 @@
 nav {
   height: 120px;
   width: 100vw;
-  
   z-index: 1500;
   color: #ffffff;
-  background-color: #4056A1;
+  background-color: rgb(0, 102, 255);
   align-items: center;
   display: flex;
   justify-content: space-between;
@@ -20,7 +19,7 @@ nav p {
   text-align: center;
 }
 .fa-angle-double-down {
-  color: orange;
+  color: #e851ff;
 }
 
 p span {
@@ -28,3 +27,13 @@ p span {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+
+@media only screen and (max-width:862px){
+  nav{
+    background-color: #e851ff;
+    background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+    }
+    nav i.fa-angle-double-down{
+      color:  rgb(0, 102, 255);
+    }
+}
